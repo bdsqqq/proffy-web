@@ -44,6 +44,7 @@ const TeacherItem: React.FunctionComponent<TeacherItemProps> = ({
           <strong>{teacher.cost}</strong>
         </p>
         <a
+          rel="noopener noreferrer"
           target="_blank"
           onClick={createNewConnection}
           href={`https://wa.me/${teacher.whatsapp}?text=Hello%20There`}
